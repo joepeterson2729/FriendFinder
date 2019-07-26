@@ -1,5 +1,5 @@
 //Load Data
-var friendList = require('../data/friends.js');
+var friendList = require('./data/friends.js');
 
 module.exports = function(app){
   //a GET route that displays JSON of all possible friends

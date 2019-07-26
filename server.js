@@ -13,8 +13,8 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
 //ROUTER
-var apiRoutes = require('./routing/apiroutes.js'); 
-var htmlRoutes= require('./routing/htmlRoutes.js');
+var apiRoutes = require('./apiroutes.js'); 
+var htmlRoutes= require('./htmlRoutes.js');
 apiRoutes(app);
 htmlRoutes(app);
 
